@@ -1,0 +1,168 @@
+.top-container{
+    height: 450px;
+    background: url('background.jpg') center center/cover;
+    opacity: 0.8;
+}
+
+.top-container h1{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+
+}
+.top-container h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 33px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.top-container h3{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+.view-btn{
+    
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 7px;
+    border-color:yellowgreen;
+    color:white;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    border-width: 2px;
+    background-color:green;
+    width: 100px;
+}
+
+.mid-container h1{
+    text-align: center;
+    margin-top: 36px;
+    font-family: 'Public Sans', sans-serif;
+}
+.mid-container p{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-weight: 200;
+    font-size: large;
+    
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+ hr{
+    size: 10inch;
+    border-top: 2px solid skyblue;
+    width: 180px;
+}
+.third-container{
+    text-align: center;
+}
+.third-container h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.third-container h2{
+    font-size: x-large;
+
+    font-weight: 620;
+    text-align: center;
+    padding: 10px;
+    
+}
+.third-container p{
+    font-size: larger;
+    font-weight: 400px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.shadow-lg{
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.third-container a{
+    text-decoration: none;
+}
+.skill-container h1{
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.skill-container ul{
+    margin-top: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+.skill-container li{
+    display: inline;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 12px;
+    background-color:lightgrey;
+    
+}
+.contact-container{
+    height: 400px;
+    text-align: center;
+    
+    
+}
+.contact-container h1{
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    
+
+}
+.contact-container i{
+    font-size: 4rem;
+    padding: 30px;
+}
+.github-a{
+    color:rgb(85, 87, 90);
+}
+.insta-a{
+    color: rgb(235, 55, 205);
+}
+.fb-a{
+    color: rgb(98, 98, 173);
+}
+
+.contact-form input{
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    border-radius: 4px;
+    color:black;
+}
+.contact-form textarea{
+    display: block;
+    margin: auto;
+    width: 400px;
+    border-radius: 4px;
+    color:black;
+    transition: .5s ease all;
+}
+.contact-form button{
+    display: block;
+    margin:20px auto;
+    width: 400px;
+    color:white;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color:  #347cdb;
+
+
+}
+
+

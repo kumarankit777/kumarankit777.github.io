@@ -1,5 +1,9 @@
+.navbar-toggler:hover{
+    outline: none;
+
+}
 .top-container{
-    height: 450px;
+    height: 700px;
     background: url('background.jpg') center center/cover;
     opacity: 0.8;
 }
@@ -7,9 +11,20 @@
 .top-container h1{
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 30px;
+    padding-top: 2px;
     color: white;
     font-family: 'Roboto Slab', serif;
 
+}
+.top-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 50%;
+
+    width:110px;
 }
 .top-container h2{
     text-align: center;
@@ -39,6 +54,9 @@
     background-color:green;
     width: 100px;
 }
+.view-btn:hover{
+    background-color: rgb(1, 73, 37);
+}
 
 .mid-container h1{
     text-align: center;
@@ -55,6 +73,22 @@
     margin-right: 40px;
 
 }
+.resume-btn{
+    display: block;
+    margin:  30px auto;
+    width: 300px;
+    background-color: rgb(69, 185, 231);
+    color: white;
+    padding: 3px;
+    border-color: white;
+    font-weight: 600;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+.resume-btn:hover{
+    background-color: rgb(6, 106, 146);
+}
  hr{
     size: 10inch;
     border-top: 2px solid skyblue;
@@ -62,6 +96,7 @@
 }
 .third-container{
     text-align: center;
+    margin-top: 40px;
 }
 .third-container h1{
     text-align: center;
@@ -164,5 +199,7 @@
 
 
 }
+
+
 
 
